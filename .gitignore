@@ -1,0 +1,21 @@
+#
+.DS_Store
+
+# KiCAD project file is host specific
+*.pro
+
+# Bakups
+*bak
+
+# Archives
+*.zip
+
+# Cache
+*-cache.lib
+
+# Gerber output files
+*.drl
+*.svg
+*-B*
+*-F*
+*-Edge*
