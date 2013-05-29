@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Mittwoch, 29. Mai 2013 06:58:31
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Mittwoch, 29. Mai 2013 14:10:15
 
 BeginCmp
 TimeStamp = /51A5130D;
@@ -32,14 +32,14 @@ BeginCmp
 TimeStamp = /51A58C57;
 Reference = C5;
 ValeurCmp = 100n;
-IdModule  = C1-1;
+IdModule  = CP8;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A58C64;
 Reference = C6;
 ValeurCmp = 100n;
-IdModule  = C1-1;
+IdModule  = CP8;
 EndCmp
 
 BeginCmp
@@ -71,31 +71,45 @@ IdModule  = CP_1.5_4;
 EndCmp
 
 BeginCmp
+TimeStamp = /51A5F0B8;
+Reference = C11;
+ValeurCmp = 100n;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A5F0BE;
+Reference = C12;
+ValeurCmp = 100n;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /51A58260;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = D3;
+IdModule  = D4;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A58280;
 Reference = D2;
 ValeurCmp = DIODE;
-IdModule  = D3;
+IdModule  = D4;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A58253;
 Reference = D3;
 ValeurCmp = DIODE;
-IdModule  = D3;
+IdModule  = D4;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A5827A;
 Reference = D4;
 ValeurCmp = DIODE;
-IdModule  = D3;
+IdModule  = D4;
 EndCmp
 
 BeginCmp
@@ -113,31 +127,45 @@ IdModule  = D3;
 EndCmp
 
 BeginCmp
+TimeStamp = /51A5E9DB;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A5E9E8;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
 TimeStamp = /51A589E7;
 Reference = K1;
 ValeurCmp = CONN_3;
-IdModule  = PINHEAD1-3;
+IdModule  = AKL073-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A5132E;
 Reference = L1;
 ValeurCmp = -;
-IdModule  = CV3-30PF;
+IdModule  = HFSRA_C;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A5133B;
 Reference = L2;
 ValeurCmp = -;
-IdModule  = CV3-30PF;
+IdModule  = HFSRA_C;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A589EF;
 Reference = P1;
 ValeurCmp = CONN_4;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = AKL073-4;
 EndCmp
 
 BeginCmp
@@ -169,17 +197,31 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
+TimeStamp = /51A5E9B9;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A5E9BF;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
 TimeStamp = /51A51870;
 Reference = U1;
 ValeurCmp = LM317T;
-IdModule  = TO220;
+IdModule  = TO-220_Neutral123_Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A51861;
 Reference = U2;
 ValeurCmp = LM337T;
-IdModule  = TO220;
+IdModule  = TO-220_Neutral123_Horizontal;
 EndCmp
 
 EndListe
