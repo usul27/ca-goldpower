@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mittwoch, 29. Mai 2013 15:31:56
+EESchema Schematic File Version 2  date Donnerstag, 30. Mai 2013 08:42:41
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -248,8 +248,6 @@ Connection ~ 4350 3900
 Wire Wire Line
 	3450 2400 3450 2950
 Wire Wire Line
-	1850 2700 8200 2700
-Wire Wire Line
 	4350 2400 4350 2950
 Connection ~ 4350 2700
 Connection ~ 3450 2700
@@ -275,8 +273,6 @@ Connection ~ 2600 3900
 Wire Wire Line
 	1850 2800 2600 2800
 Connection ~ 2600 2800
-Wire Wire Line
-	6000 1500 8100 1500
 Wire Wire Line
 	6250 1500 6250 1550
 Wire Wire Line
@@ -323,8 +319,6 @@ F 3 "~" H 6500 3650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6000 3900 8100 3900
-Wire Wire Line
 	6250 3900 6250 3850
 Wire Wire Line
 	6500 3900 6500 3850
@@ -366,12 +360,12 @@ Connection ~ 6500 3900
 $Comp
 L CONN_3 K1
 U 1 1 51A589E7
-P 8550 2700
-F 0 "K1" V 8500 2700 50  0000 C CNN
-F 1 "CONN_3" V 8600 2700 40  0000 C CNN
-F 2 "" H 8550 2700 60  0000 C CNN
-F 3 "" H 8550 2700 60  0000 C CNN
-	1    8550 2700
+P 7850 2700
+F 0 "K1" V 7800 2700 50  0000 C CNN
+F 1 "CONN_3" V 7900 2700 40  0000 C CNN
+F 2 "" H 7850 2700 60  0000 C CNN
+F 3 "" H 7850 2700 60  0000 C CNN
+	1    7850 2700
 	1    0    0    1   
 $EndComp
 $Comp
@@ -405,17 +399,17 @@ F 3 "" H 3050 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 2850 3050 2700
+	3050 2700 3050 2850
 Connection ~ 3050 2700
 Wire Wire Line
-	8100 1500 8100 2600
+	7400 1500 7400 2600
 Wire Wire Line
-	8100 2600 8200 2600
+	7400 2600 7500 2600
 Connection ~ 6950 1500
 Wire Wire Line
-	8200 2800 8100 2800
+	7500 2800 7400 2800
 Wire Wire Line
-	8100 2800 8100 3900
+	7400 2800 7400 3900
 Connection ~ 6950 3900
 $Comp
 L C C5
@@ -448,63 +442,42 @@ Connection ~ 5050 2700
 Wire Wire Line
 	5050 2000 5050 1500
 Connection ~ 5050 1500
-$Comp
-L R R5
-U 1 1 51A5E9B9
-P 7600 2350
-F 0 "R5" V 7680 2350 40  0000 C CNN
-F 1 "R" V 7607 2351 40  0000 C CNN
-F 2 "~" V 7530 2350 30  0000 C CNN
-F 3 "~" H 7600 2350 30  0000 C CNN
-	1    7600 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R6
-U 1 1 51A5E9BF
-P 7600 3050
-F 0 "R6" V 7680 3050 40  0000 C CNN
-F 1 "R" V 7607 3051 40  0000 C CNN
-F 2 "~" V 7530 3050 30  0000 C CNN
-F 3 "~" H 7600 3050 30  0000 C CNN
-	1    7600 3050
-	-1   0    0    1   
-$EndComp
-$Comp
-L LED D7
-U 1 1 51A5E9DB
-P 7600 1800
-F 0 "D7" H 7600 1900 50  0000 C CNN
-F 1 "LED" H 7600 1700 50  0000 C CNN
-F 2 "~" H 7600 1800 60  0000 C CNN
-F 3 "~" H 7600 1800 60  0000 C CNN
-	1    7600 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L LED D8
-U 1 1 51A5E9E8
-P 7600 3600
-F 0 "D8" H 7600 3700 50  0000 C CNN
-F 1 "LED" H 7600 3500 50  0000 C CNN
-F 2 "~" H 7600 3600 60  0000 C CNN
-F 3 "~" H 7600 3600 60  0000 C CNN
-	1    7600 3600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7600 1500 7600 1600
-Connection ~ 7600 1500
-Wire Wire Line
-	7600 2000 7600 2100
-Wire Wire Line
-	7600 2600 7600 2800
-Connection ~ 7600 2700
-Wire Wire Line
-	7600 3300 7600 3400
-Wire Wire Line
-	7600 3800 7600 3900
-Connection ~ 7600 3900
 Wire Wire Line
 	5600 2050 6500 2050
+Wire Wire Line
+	6000 1500 8450 1500
+Wire Wire Line
+	6000 3900 8450 3900
+Wire Wire Line
+	1850 2700 7500 2700
+$Comp
+L LED D?
+U 1 1 51A658D8
+P 8450 1950
+F 0 "D?" H 8450 2050 50  0000 C CNN
+F 1 "LED" H 8450 1850 50  0000 C CNN
+F 2 "~" H 8450 1950 60  0000 C CNN
+F 3 "~" H 8450 1950 60  0000 C CNN
+	1    8450 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51A658E5
+P 8450 3350
+F 0 "R?" V 8530 3350 40  0000 C CNN
+F 1 "R" V 8457 3351 40  0000 C CNN
+F 2 "~" V 8380 3350 30  0000 C CNN
+F 3 "~" H 8450 3350 30  0000 C CNN
+	1    8450 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 1500 8450 1750
+Connection ~ 7400 1500
+Wire Wire Line
+	8450 2150 8450 3100
+Wire Wire Line
+	8450 3900 8450 3600
+Connection ~ 7400 3900
 $EndSCHEMATC

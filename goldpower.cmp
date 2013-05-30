@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Mittwoch, 29. Mai 2013 14:10:15
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Mittwoch, 29. Mai 2013 21:58:01
 
 BeginCmp
 TimeStamp = /51A5130D;
@@ -32,56 +32,42 @@ BeginCmp
 TimeStamp = /51A58C57;
 Reference = C5;
 ValeurCmp = 100n;
-IdModule  = CP8;
+IdModule  = C1-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A58C64;
 Reference = C6;
 ValeurCmp = 100n;
-IdModule  = CP8;
+IdModule  = C1-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A58614;
 Reference = C7;
 ValeurCmp = 10u/25V;
-IdModule  = CP_1.5_4;
+IdModule  = C2_D5x10;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A58466;
 Reference = C8;
 ValeurCmp = 10u/25V;
-IdModule  = CP_1.5_4;
+IdModule  = C2_D5x10;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A588FA;
 Reference = C9;
 ValeurCmp = 10u/25V;
-IdModule  = CP_1.5_4;
+IdModule  = C2_D5x10;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A58900;
 Reference = C10;
 ValeurCmp = 10u/25V;
-IdModule  = CP_1.5_4;
-EndCmp
-
-BeginCmp
-TimeStamp = /51A5F0B8;
-Reference = C11;
-ValeurCmp = 100n;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /51A5F0BE;
-Reference = C12;
-ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = C2_D5x10;
 EndCmp
 
 BeginCmp
