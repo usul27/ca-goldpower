@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Donnerstag, 30. Mai 2013 08:42:41
+EESchema Schematic File Version 2  date Donnerstag, 30. Mai 2013 21:16:42
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -21,7 +21,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "29 may 2013"
+Date "30 may 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -451,10 +451,10 @@ Wire Wire Line
 Wire Wire Line
 	1850 2700 7500 2700
 $Comp
-L LED D?
+L LED D7
 U 1 1 51A658D8
 P 8450 1950
-F 0 "D?" H 8450 2050 50  0000 C CNN
+F 0 "D7" H 8450 2050 50  0000 C CNN
 F 1 "LED" H 8450 1850 50  0000 C CNN
 F 2 "~" H 8450 1950 60  0000 C CNN
 F 3 "~" H 8450 1950 60  0000 C CNN
@@ -462,10 +462,10 @@ F 3 "~" H 8450 1950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R5
 U 1 1 51A658E5
 P 8450 3350
-F 0 "R?" V 8530 3350 40  0000 C CNN
+F 0 "R5" V 8530 3350 40  0000 C CNN
 F 1 "R" V 8457 3351 40  0000 C CNN
 F 2 "~" V 8380 3350 30  0000 C CNN
 F 3 "~" H 8450 3350 30  0000 C CNN
